@@ -6,7 +6,7 @@ const policies = {
   'img-src': ["'self'", 'https://raw.githubusercontent.com'],
   'font-src': ["'self'"],
   'frame-src': ["'self'"],
-  'connect-src': ["*"], // Allow all connections
+  'connect-src': ["'self'", 'https://maps.googleapis.com'],
 }
 
 module.exports = Object.entries(policies)
