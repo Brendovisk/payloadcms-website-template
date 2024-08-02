@@ -6,7 +6,7 @@ const policies = {
   'img-src': ["'self'", 'https://raw.githubusercontent.com'],
   'font-src': ["'self'"],
   'frame-src': ["'self'"],
-  'connect-src': ["'self'", 'https://maps.googleapis.com'],
+  'connect-src': ["'self'", 'https://maps.googleapis.com', 'http://localhost:3000'],
 }
 
 module.exports = Object.entries(policies)
